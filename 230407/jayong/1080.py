@@ -16,7 +16,7 @@ for i in range(N - 2):
         if cur_lst[i][j] != last_lst[i][j]:
             change(i,j)
             cnt += 1
-    
+
     
 if cur_lst != last_lst:
     print("-1")
